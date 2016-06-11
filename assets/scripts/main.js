@@ -1,0 +1,1 @@
+"use strict";!function(){console.log("main script execute")}(),function(){$("table tr").click(function(){$(this).hasClass("show-subtable")?($(this).removeClass("show-subtable"),$(this).next().fadeOut()):($("table tr").removeClass("show-subtable"),$("table .visible-table").fadeOut(),$(this).addClass("show-subtable"),$(this).next().fadeIn())})}();
